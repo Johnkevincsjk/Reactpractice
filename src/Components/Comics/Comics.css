@@ -1,0 +1,59 @@
+.Comics-main {
+    height: auto;
+    width: 100%;
+   padding: 20px 30px;
+    background-color: white;
+    position: relative;
+    top: -60px;
+   
+}
+
+.comics-main2 {
+    display: flex;
+    justify-content: space-around;
+
+
+}
+
+.comics-img {
+    height: 300px;
+    box-shadow: 0 2px 10px 1px;
+    margin-bottom: 20px;
+    object-fit: cover;
+    transition: 0.5s;
+}
+
+.comics-img:hover {
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+
+.comics-cards {
+    margin: 10px 2px;
+
+
+    padding: 0;
+    transition: 0.5s;
+}
+.comics-cards:hover{
+    p{
+        color: red;
+    }
+}
+
+
+
+.card-content-one {
+    font-family: "Marvel", sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+    margin-bottom: 2px;
+}
+
+.comic-year {
+    font-size: 15px;
+    font-weight: 900;
+    color: #767676;
+
+}
